@@ -1,0 +1,52 @@
+html, body {
+  height: 100%;
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+#game {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#information{
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#information2{
+  display: block;
+  align-items: center;
+  text-align: center;
+  line-height: 3rem;
+}
+
+h1, h2, p, span{
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2rem;
+  line-height: 1rem;
+  z-index: 2;
+  color: #fff;
+}
+
+h2{
+  color: red;
+}
+
+span{
+  color: green;
+  white-space: nowrap;
+}
+
+p{
+  text-transform: uppercase;
+}
+
+#score{
+  text-align: center;
+}
